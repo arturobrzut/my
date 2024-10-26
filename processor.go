@@ -1,5 +1,5 @@
 // processor.go
-package wireguardprocessor
+package my
 
 import (
 	"context"
