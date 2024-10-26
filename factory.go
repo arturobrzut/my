@@ -55,7 +55,8 @@ func CreateMetricsProcessor(
 		processorhelper.WithCapabilities(processorCapabilities))
 }
 
-func NewProcessorFactory() processor.Factory {
+// Entry point from otel
+func NewFactory() processor.Factory {
 	typeStr, _ := component.NewType("wireguardprocessor")
 	return processor.NewFactory(
 		typeStr,
