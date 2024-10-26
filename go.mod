@@ -1,4 +1,4 @@
-module github.com/yourusername/otel-wireguard-processor
+module github.com/arturobrzut/my
 
 go 1.23
 
